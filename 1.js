@@ -28,10 +28,8 @@ const stok_produk = [
     }
 ];
 
-var result = Object.values(stok_produk.flat().reduce((map, r) => { 
-    if (!map[r._id]) map[r._id] = { _id: r._id, total: 0};
-    map[r._id].total += r.total;
-    return map;
-}, {}));
+const res = stok_produk.reduce((a,{id,val})=>{
+    return a.set(id, (a.get(id)||0) + val);
+  }, new Map())
 
-console.log(result);
+console.log(res.get(1));
