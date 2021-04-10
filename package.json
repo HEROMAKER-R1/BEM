@@ -1,0 +1,19 @@
+{
+  "name": "bem",
+  "version": "1.0.0",
+  "description": "BEM Test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HEROMAKER-R1/BEM.git"
+  },
+  "author": "Azkaa Agdaviswan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HEROMAKER-R1/BEM/issues"
+  },
+  "homepage": "https://github.com/HEROMAKER-R1/BEM#readme"
+}
